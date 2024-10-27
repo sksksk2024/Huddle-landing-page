@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+  --violet: #674baf;
+  --soft-magenta: #e882e8;
+}
+
+/* Utilities */
+.container {
+  max-width: 1100px;
+}
+
+/* Styles */
+
+html,
+body {
+  background: url('./../images/bg-mobile.svg') center center/cover no-repeat;
+  background-color: var(--violet);
+  font-family: 'Open Sans', sans-serif;
+  height: 120vh;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 768px) {
+  html,
+  body {
+    height: 100%;
+    overflow-y: hidden;
+  }
+}

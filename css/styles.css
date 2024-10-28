@@ -29,7 +29,7 @@ body {
   background: url('./../images/bg-mobile.svg') center center/cover no-repeat;
   background-color: var(--violet);
   font-family: 'Open Sans', sans-serif;
-  height: 120vh;
+  min-height: 120vh;
   line-height: 1.6;
   font-size: 1.1rem;
 }
@@ -38,6 +38,6 @@ body {
   html,
   body {
     height: 100%;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
   }
 }

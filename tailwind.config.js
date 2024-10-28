@@ -6,6 +6,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        '3xs': '0px',
+        '2xs': '380px',
+        'xs': '480px', // extra small screens
+        'sm': '640px', // small screens
+        'md': '768px', // medium screens
+        'lg': '1024px', // large screens
+        'xl': '1280px', // extra large screens
+        '2xl': '1536px', // double extra large screens
+      },
       colors: {
         primary: '#1da1f2',
         secondary: '#14171a',
@@ -18,6 +28,7 @@ module.exports = {
       },
       fontSize: {
         'sm': '0.1rem',
+        'md': '1.4rem',
         'lg': '2rem',
       },
       fontWeight: {
